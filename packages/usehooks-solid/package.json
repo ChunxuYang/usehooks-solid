@@ -1,0 +1,36 @@
+{
+  "name": "usehooks-solid",
+  "version": "0.0.0",
+  "description": "A collection of reusable hooks for SolidJS",
+  "author": "Chunxu Yang",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/usehooks-solid.umd.cjs",
+  "module": "./dist/usehooks-solid.js",
+  "types": "./dist/usehooks-solid.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/usehooks-solid.js",
+      "require": "./dist/usehooks-solid.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.7.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "vite-plugin-dts": "^3.6.3"
+  }
+}
