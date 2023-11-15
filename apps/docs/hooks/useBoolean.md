@@ -1,4 +1,11 @@
-import { useBoolean } from "../";
+# useBoolean
+
+A simple abstraction to play with a boolean, don't repeat yourself.
+
+## Usage
+
+```tsx
+import { useBoolean } from "usehooks-solid";
 
 export default function Component() {
   const { value, setValue, toggle, setTrue, setFalse } = useBoolean(true);
@@ -15,3 +22,4 @@ export default function Component() {
     </div>
   );
 }
+```

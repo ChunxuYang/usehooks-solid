@@ -1,7 +1,7 @@
 {
   "name": "usehooks-solid",
-  "version": "0.0.0",
-  "description": "A collection of reusable hooks for SolidJS",
+  "version": "0.0.1",
+  "description": "A collection of reusable hooks for Solid.js",
   "author": "Chunxu Yang",
   "license": "MIT",
   "type": "module",

@@ -1,6 +1,4 @@
-# usehooks-solid
-
-A collection of reusable hooks for Solid.js.
+# Quick Start with usehooks-solid
 
 ## Installation
 

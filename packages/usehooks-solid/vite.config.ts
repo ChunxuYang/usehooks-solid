@@ -6,9 +6,10 @@ export default defineConfig({
   plugins: [solid(), dts()],
   build: {
     lib: {
-      entry: "src/index.ts",
+      entry: "./src/index.ts",
       name: "usehooks-solid",
       fileName: "usehooks-solid",
+      formats: ["es", "umd"],
     },
     rollupOptions: {
       external: ["solid-js", "solid-js/web"],
