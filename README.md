@@ -49,6 +49,6 @@ pnpm add usehooks-solid
 - [ ] useStep()
 - [ ] useTernaryDarkMode()
 - [ ] useTimeout()
-- [ ] useToggle()
+- [x] useToggle()
 - [ ] useUpdateEffect()
 - [ ] useWindowSize()

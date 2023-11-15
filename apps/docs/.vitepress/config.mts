@@ -17,7 +17,13 @@ export default defineConfig({
       },
       {
         text: "Hooks",
-        items: [{ text: "useBoolean", link: "/hooks/useBoolean" }],
+        items: [
+          { text: "useBoolean", link: "/hooks/useBoolean" },
+          {
+            text: "useToggle",
+            link: "/hooks/useToggle",
+          },
+        ],
       },
     ],
 

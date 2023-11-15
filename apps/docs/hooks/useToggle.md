@@ -1,27 +1,24 @@
-# useBoolean
+# useToggle
 
 A simple abstraction to play with a boolean, don't repeat yourself.
 
 Related hooks:
 
-- [useToggle](/hooks/useToggle)
+- [useBoolean](/hooks/useBoolean)
 
 ## Usage
 
 ```tsx
-import { useBoolean } from "usehooks-solid";
+import { useToggle } from "usehooks-solid";
 
 export default function Component() {
-  const { value, setValue, toggle, setTrue, setFalse } = useBoolean(true);
+  const { value, setValue, toggle } = useToggle(true);
 
   const customToggle = () => setValue((prev) => !prev);
 
   return (
     <div>
       <div>Value: {value.toString()}</div>
-      <button onClick={toggle}>Toggle</button>
-      <button onClick={setTrue}>Set True</button>
-      <button onClick={setFalse}>Set False</button>
       <button onClick={customToggle}>Custom Toggle</button>
     </div>
   );
